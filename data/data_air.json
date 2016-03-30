@@ -1,0 +1,53 @@
+{
+  "file": "air2015.txt",
+  "separator" : "\t",
+  "primaryKey": "city",
+  "columns": [
+    {
+      "column": "city",
+      "type": "string"
+    },
+    {
+      "column": "AQI",
+      "type": "number",
+      "domain": [0, 300]
+    },
+    {
+      "column": "PM2.5",
+      "type": "number",
+      "domain": [0, 200]
+    },
+    {
+      "column": "PM10",
+      "type": "number",
+      "domain": [0, 250]
+    },
+	{
+      "column": "SO2",
+      "type": "number",
+      "domain": [0, 200]
+    },
+	{
+      "column": "CO",
+      "type": "number",
+      "domain": [0, 25]
+    },
+	{
+      "column": "NO2",
+      "type": "number",
+      "domain": [0, 100]
+    },
+	{
+      "column": "O3/1",
+      "type": "number",
+      "domain": [0, 100]
+    },
+    {
+      "column": "O3/8",
+      "type": "number",
+      "domain": [0, 100]
+    }
+    
+
+  ]
+}

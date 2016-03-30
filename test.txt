@@ -1,0 +1,10 @@
+  // infoWindow.setContent("<h5>" + extData.name + "</h5><div>" + extData.desc + "</div>");
+  // infoWindow.open(map, e.lnglat);
+
+  // var $position = extData.name;
+  // var searchData = {};
+  // var searchData["position"] = extData.name;
+  // $.post('/VisibleAir/response/', searchData, function(data) {
+  //     location.reload();
+  //   });
+  // console.log($position); 

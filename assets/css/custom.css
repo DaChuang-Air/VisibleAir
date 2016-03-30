@@ -1,0 +1,75 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+*/
+.copy-right {
+  line-height: 30px;
+  display: block;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.param-list {
+  padding: 30px 10px 50px 10px;
+  background-color: #fff;
+  border: 1px solid #cdcdcd;
+  overflow: hidden;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+
+}
+.param-list li {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.param-list li a {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+.bg-color-1 {
+  background-color: #5BBD72;
+}
+.bg-color-2 {
+  background-color: #3B83C0;
+}
+.bg-color-3 {
+  background-color: #E1815B;
+}
+.bg-color-4 {
+  background-color: #564F8A;
+}
+.bg-color-5 {
+  background-color: #D95C5C;
+}
+.bg-color-6 {
+  background-color: #00B5AD;
+}
+
+.air-display {
+  margin-top: 15px;
+}
+.form-group {
+  margin-right: 30px;
+}
+.country-map-1 {
+  text-align: center;
+}
+.country-map-2 {
+  margin-top: 50px;
+  text-align: center;
+}
+.rank-table {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 10px;  
+}

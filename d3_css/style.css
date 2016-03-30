@@ -1,0 +1,119 @@
+body {
+	font-size: 14px;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	margin: 24px;
+	background: #fcfcfc;
+	line-height: 1.45em;
+}
+a {
+	color: #555;
+}
+a:hover {
+	color: #000;
+}
+ul {
+	margin: 0 20px;
+	padding: 0;
+}
+.dark {
+	background: #222;
+}
+p {
+	width: 560px;
+}
+pre {
+	color: #444;
+	font-family: Ubuntu Mono, Monaco, monospace;
+	padding: 4px 8px;
+	background: #f2f2f2;
+	border: 1px solid #ccc;
+}
+h1 small {
+	font-weight: normal;
+	font-size: 0.5em;
+}
+h3 {
+	margin-top: 40px;
+}
+.float {
+	float: left;
+}
+.centered {
+	text-align: center;
+}
+.hide {
+	display: none;
+}
+input {
+	font-size: 16px;
+}
+#grid {
+	height: 250px;
+	width:90%;
+	overflow: scroll;
+	margin:0 auto;
+	margin-left:5%;
+}
+.row, .header {
+	clear: left;
+	font-size: 12px;
+	line-height: 18px;
+	height: 18px;
+}
+.row:nth-child(odd) {
+	background: rgba(0,0,0,0.05);
+}
+.header {
+	font-weight: bold;
+}
+.cell {
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100px;
+	height: 18px;
+}
+.col-0 {
+	width: 180px;
+}
+#example {
+	height: 200px;
+	box-shadow: #666 0px 0px 10px;
+	border-radius:5px;
+}
+button{
+	width:8%;
+	height:35px;
+	background-color:#FC9;
+	border-color:#333;
+	color:#FFF;
+	border:none;
+	font-weight:bold;
+	box-shadow:#FF0 0px 0px 10px;
+	margin-top:12px;
+	margin-left:2%;
+}
+.btn_pm2{
+	background-color:#0C0;
+	border-color:#0C0;
+}
+.btn_pm10{
+	background-color:#0CC;
+	border-color:#0CC;
+}
+.btn_co{
+	background-color:#F93;
+	border-color:#F93;
+}
+.btn_no2{
+	background-color:#F00;
+	border-color:#F00;
+}
+.btn_o3{
+	background-color:#F3F;
+	border-color:#F3F;
+}
+.btn_so2{
+	background-color:#9F0;
+	border-color:#9F0;
+}
